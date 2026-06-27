@@ -3,6 +3,55 @@
    ============================================ */
 
 /* Reset MkDocs defaults */
+/* ============================================
+   LAYOUT - 3 COLUMNS
+   ============================================ */
+
+.ro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+}
+
+/* Top Section (Login + Carousel) */
+.top-section {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Main Layout - 3 Columns */
+.main-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Column Styling */
+.left-col,
+.center-col,
+.right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .main-layout,
+  .top-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .left-col,
+  .center-col,
+  .right-col {
+    width: 100%;
+  }
+}
 https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap
 .md-sidebar--primary,
 .md-sidebar--secondary,
