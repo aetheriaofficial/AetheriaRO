@@ -1,0 +1,4 @@
+site_name: Aetheria Official Guide
+   theme:
+     name: material
+     language: th
