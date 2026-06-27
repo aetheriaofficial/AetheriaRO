@@ -53,7 +53,7 @@ body {
 /* === 3 COLUMN LAYOUT === */
 .main-wrapper {
   display: grid !important;
-  grid-template-columns: 240px 2.5fr 240px !important;
+  grid-template-columns: 260px 2.2fr 260px !important;
   gap: 20px !important;
   width: 100% !important;
 }
